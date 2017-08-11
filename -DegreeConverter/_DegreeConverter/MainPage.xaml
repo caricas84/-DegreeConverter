@@ -9,28 +9,56 @@
         <Label
             HorizontalOptions="Center"
             FontSize="Large"
-            Text="Degree Converter">
+            Text="Degree Converter"
+            TextColor="Coral">
+            
         </Label>
         <Label
-            Text="Centigrade:">
+            Text="Temperature:"
+            TextColor="Blue">
         </Label>
         <Entry
             x:Name="DegreeEntry"
             Keyboard="Numeric"
-            Placeholder="Enter value in Degree Centigrade...">
+            Placeholder="Enter value in the temperature...">
         </Entry>
         <Button
+            HorizontalOptions="Center"
             x:Name="ConvertButton"
-            Text="Convert">
+            Text="°C - °F"
+            BackgroundColor="LightYellow">
         </Button>
+        <Button
+            HorizontalOptions="Center"
+            x:Name="OtherButton"
+            Text="°F - °C"
+            BackgroundColor="LightCyan">
+        </Button>
+        
         <Label
-            Text="Fahrenheit:">
+            Text="Fahrenheit:"
+            TextColor="Blue">
         </Label>
         <Entry
             x:Name="FahrenheitEntry"
+            HorizontalOptions="Start"
             IsEnabled="false"
-            Placeholder="Value in Degree Fahrenheit...">
+            Placeholder="Value in Degree Fahrenheit..."
+            BackgroundColor="LightYellow">>
+            
         </Entry>
-        </StackLayout>
+        <Label
+            Text="Centigrade:"
+            TextColor="Blue">
+        </Label>
+        <Entry
+            x:Name="CentigradeEntry"
+            HorizontalOptions="Start"
+            IsEnabled="false"
+            Placeholder="Value in Degree Centigrade..."
+            BackgroundColor="LightCyan">>
+        </Entry>
+
+    </StackLayout>
 
 </ContentPage>
