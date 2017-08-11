@@ -36,7 +36,7 @@
         </Button>
         
         <Label
-            Text="Fahrenheit:"
+            Text="Centigrade to Fahrenheit:"
             TextColor="Blue">
         </Label>
         <Entry
@@ -48,7 +48,7 @@
             
         </Entry>
         <Label
-            Text="Centigrade:"
+            Text="Fahrenheit to Centigrade:"
             TextColor="Blue">
         </Label>
         <Entry
