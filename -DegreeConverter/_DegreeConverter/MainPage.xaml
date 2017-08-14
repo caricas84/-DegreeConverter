@@ -44,7 +44,7 @@
             HorizontalOptions="Start"
             IsEnabled="false"
             Placeholder="Value in Degree Fahrenheit..."
-            BackgroundColor="LightYellow">>
+            BackgroundColor="LightYellow">
             
         </Entry>
         <Label
@@ -56,7 +56,7 @@
             HorizontalOptions="Start"
             IsEnabled="false"
             Placeholder="Value in Degree Centigrade..."
-            BackgroundColor="LightCyan">>
+            BackgroundColor="LightCyan">
         </Entry>
 
     </StackLayout>
