@@ -48,7 +48,7 @@
             
         </Entry>
         <Label
-            Text="Fahrenheit to Centigrade:"
+            Text="Fahrenheit to  Centigrade:"
             TextColor="Blue">
         </Label>
         <Entry
